@@ -1,0 +1,152 @@
+body {
+    background-color: white;
+    color: black;
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size:   11px;
+    line-height: 15px;
+}
+
+#title {
+    color: darkorange;
+    font-size: 16px;
+    font-variant: small-caps;
+    font-weight: bold;
+}
+
+#left-div {
+    width: 40%;
+    height: 800px;
+    border: 1px solid red;
+
+    float: left;
+}
+
+#right-div {
+    width: 59%;
+    height: 800px;
+    border: 1px solid red;
+
+    float: right;
+}
+
+#input-results-div {
+   width: 650px;
+   height: 350px;
+   overflow: auto;
+   border: 1px solid green;
+   margin: 5px;
+}
+
+#summary-results-div {
+   width: 650px;
+   height: 400px;
+   overflow: auto;
+   border: 1px solid green;
+   margin: 5px;
+}
+
+#format-selection {
+    color: darkred;
+}
+
+#error-div {
+   width: 450px;
+   height: 150px;
+   overflow: auto;
+   border: 1px solid blue;
+   margin: 5px;
+}
+
+#sequence {
+   margin: 5px;
+   border: 1px solid darkorange;
+}
+
+#distance {
+   border: 1px solid darkgreen;
+  
+   width: 80%;
+   margin: 5px;
+}
+
+.sequence {
+  font-family: monospace;
+}
+
+fieldset.results-fieldset {
+   width: 650px;
+   height: 350px;
+}
+
+fieldset.inputs-fieldset {
+   width: 650px;
+   height: 450px;
+}
+
+table.results-table {
+  border: 1px solid darkgreen;
+  margin: 5px;
+  width: 80%;
+}
+
+table.summary-table {
+  margin: 5px;
+
+}
+
+table.summary-table th{
+  font-size: 11px;
+  font-variant: small-caps;
+  font-weight: bold;
+}
+
+h1 {
+  font-variant: small-caps;
+  font-size: 14px;
+  color: darkred;
+}
+
+h2 {
+  color: darkgoldenrod;
+  font-size: 12px;
+}
+
+span.a {
+  color: red;
+}
+
+span.t {
+  color: blue;
+}
+
+span.g {
+  color: orange;
+}
+
+span.c {
+  color: green;	
+}
+
+span.u {
+  color: grey;	
+}
+
+td.a {
+  background-color: red;
+}
+
+td.t {
+  background-color: aqua;
+}
+
+td.g {
+  background-color: gold;
+}
+
+td.c {
+  background-color: lime;	
+}
+
+td.u {
+  background-color: grey;	
+}
